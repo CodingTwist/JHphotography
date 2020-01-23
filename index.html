@@ -52,14 +52,14 @@
             </ul>
         </div>
 
-        <section class="white">
+        <section class="white" style="border-top: 6px solid #666666;">
             <div class="row" style="padding: 0px;margin-bottom: 0px;">
-                <div class="col l5 s12" style="padding: 0px">
+                <div class="col l4 s12" style="padding: 0px">
                     <div class="material-placeholder">
-                        <div class="material-placeholder"><img class="materialboxed initialized" height="100%" src="img/blackpool.jpg" width="100%"></div>
+                        <div class="material-placeholder"><img class="materialboxed initialized" height="100%" src="img/wheretofindus.jpg" width="100%"></div>
                     </div>
                 </div>
-                <div class="blog-post col s12 l7">
+                <div class="blog-post col s12 l8">
                     <h3 style="text-transform: uppercase;color: #b30000;margin-left:2%;margin-right:2%;"><strong>Areas we cover</strong></h3>
                     <hr>
                     <div class="post-style" style="margin-left:2%;margin-right:2%;">
@@ -69,10 +69,31 @@
                 </div>
             </div>
         </section>
+        <section>
+            <div class="row">
+
+                <div class="col s12 m4" style="padding: 0px">
+                    <div class="material-placeholder">
+                        <div class="material-placeholder"><img class="materialboxed initialized" height="100%" src="img/car1.jpeg" width="100%"></div>
+                    </div>
+                </div>
+                <div class="col s12 m4" style="padding: 0px">
+                    <div class="material-placeholder">
+                        <div class="material-placeholder"><img class="materialboxed initialized" height="100%" src="img/green-sliver-car.jpg" width="100%"></div>
+                    </div>
+                </div>
+                <div class="col s12 m4" style="padding: 0px">
+                    <div class="material-placeholder">
+                        <div class="material-placeholder"><img class="materialboxed initialized" height="100%" src="img/blue-car.jpg" width="100%"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
 
         <section class="black">
             <div class="row" style="padding: 0px;margin-bottom: 0px;">
-                <div class="blog-post col s12 l7">
+                <div class="blog-post col s12 l8">
                     <h3 style="text-transform: uppercase;color: #b30000;margin-left:2%;margin-right:2%;"><strong>About us</strong></h3>
                     <hr>
                     <div class="post-style" style="margin-left:2%;margin-right:2%;color: #fff;">
@@ -80,32 +101,11 @@
 
                     </div>
                 </div>
-                <div class="col l5 s12" style="padding: 0px">
+                <div class="col l4 s12" style="padding: 0px">
                     <div class="material-placeholder">
                         <div class="material-placeholder"><img class="materialboxed initialized" height="100%" src="img/about-us.jpg" width="100%"></div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section>
-            <div class="row">
-
-                <div class="col s12 m4" style="padding: 0px">
-                    <div class="material-placeholder">
-                        <div class="material-placeholder"><img class="materialboxed initialized" height="100%" src="https://via.placeholder.com/1920x1080.png?text=PIC1" width="100%"></div>
-                    </div>
-                </div>
-                <div class="col s12 m4" style="padding: 0px">
-                    <div class="material-placeholder">
-                        <div class="material-placeholder"><img class="materialboxed initialized" height="100%" src="https://via.placeholder.com/1920x1080.png?text=PIC2" width="100%"></div>
-                    </div>
-                </div>
-                <div class="col s12 m4" style="padding: 0px">
-                    <div class="material-placeholder">
-                        <div class="material-placeholder"><img class="materialboxed initialized" height="100%" src="https://via.placeholder.com/1920x1080.png?text=PIC3" width="100%"></div>
-                    </div>
-                </div>
-
             </div>
         </section>
     </main>
@@ -137,6 +137,9 @@
                 autoplay: true
             });
         });
+		$(document).ready(function(){
+			$('.materialboxed').materialbox();
+		});
 
         /*Pause slider
         $('.slider').slider('pause');
